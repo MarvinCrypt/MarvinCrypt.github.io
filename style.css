@@ -8,6 +8,7 @@
 
 .landing-page .div {
   background-color: #ffffff;
+  overflow: hidden;
   width: 1920px;
   height: 5124px;
   position: relative;
@@ -17,7 +18,7 @@
   position: absolute;
   width: 1920px;
   height: 500px;
-  top: 4624px;
+  top: 4626px;
   left: 0;
   background-color: transparent;
 }
@@ -1112,4 +1113,74 @@
   letter-spacing: 0.63px;
   line-height: normal;
   white-space: nowrap;
+}
+/* Original CSS code */
+
+/* Add the following accessibility and semantic improvements */
+
+.landing-page {
+  min-height: 100vh;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.landing-hero {
+  padding-top: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #7b2cbf;
+  outline: 2px solid #ffffff;
+}
+
+.frame-8:hover,
+.frame-8:focus {
+  background-color: #f0f0f0;
+}
+
+.img:hover,
+.img:focus {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .landing-page .div {
+    width: 100%;
+    height: auto;
+  }
+
+  .landing-page .footer,
+  .landing-page .nav-bar {
+    width: 100%;
+  }
+
+  .landing-page .frame-wrapper,
+  .landing-page .element-marvin-ngala-wrapper {
+    padding: 30px;
+  }
+
+  .landing-page .container-4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landing-page .link {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
 }
