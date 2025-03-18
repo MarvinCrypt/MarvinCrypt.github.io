@@ -132,12 +132,6 @@
   --www-ziel-works-semantic-link-letter-spacing: 0.3499999940395355px;
   --www-ziel-works-semantic-link-line-height: 20px;
   --www-ziel-works-semantic-link-font-style: normal;
-  --h2-65-font-family: "Poppins", Helvetica;
-  --h2-65-font-weight: 600;
-  --h2-65-font-size: 65px;
-  --h2-65-letter-spacing: 1.95px;
-  --h2-65-line-height: normal;
-  --h2-65-font-style: normal;
   --heading-desktop-h2-font-family: "Urbanist", Helvetica;
   --heading-desktop-h2-font-weight: 500;
   --heading-desktop-h2-font-size: 48px;
@@ -150,6 +144,12 @@
   --nav-bar-text-21-letter-spacing: 0.63px;
   --nav-bar-text-21-line-height: normal;
   --nav-bar-text-21-font-style: normal;
+  --h2-65-font-family: "Poppins", Helvetica;
+  --h2-65-font-weight: 600;
+  --h2-65-font-size: 65px;
+  --h2-65-letter-spacing: 1.95px;
+  --h2-65-line-height: normal;
+  --h2-65-font-style: normal;
   --small-heading-24-font-family: "Poppins", Helvetica;
   --small-heading-24-font-weight: 600;
   --small-heading-24-font-size: 24px;
